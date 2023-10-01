@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Poppins:wght@300&display=swap');
+
+:root {
+    --primary-color: #219EBC;
+    --secondary-color: #023047;
+    --accent1-color: #FFB703;
+    --accent2-color: #FB8500;
+
+    --heading-font: 'Croissant One', cursive;
+    --paragraph-font: 'Poppins', sans-serif;
+
+    --nav-background-color: #219EBC;
+    --nav-link-color: #023047;
+    --nav-hover-link-color: #FFB703;
+    --nav-hover-background-color: #FB8500;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+h1 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+    width: 100%;
+    top: 100px;
+    text-align: center;
+    position: absolute;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent1-color);
+}
+
+main {
+	max-width: 800px;
+	margin: 2rem auto;
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    /* opacity: 0.5; */
+    width: 100%;
+    height: auto;
+}
+
+article {
+    width: 300px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border: solid 5px black;
+}
+
+article img {
+    float: right;
+}
