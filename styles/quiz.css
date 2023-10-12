@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter&family=Titillium+Web&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bitter', serif;
+    font-size: 1.5em;
+    color: blanchedalmond;
+    background: rgba(0, 0, 0, 0.226);
+}
+
+header {
+    margin: 0 auto;
+    width: 700px;
+}
+
+h1 {
+    margin: 2rem;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 5px solid blanchedalmond;
+    border-radius: 0.5rem;
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid ;
+    padding: 1rem;
+}
+
+legend {
+    padding: 1rem;
+    color: rgb(89, 89, 226);
+    font-size: 1.5em;
+}
+
+label {
+    text-align: right;
+    padding-right: 1.5rem;
+}
+
+input, select, textarea {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: rgb(89, 89, 226);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background-color: pink;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 600px;
+    text-align: center;
+    font-size: .7em;
+    border-top: 1px solid blanchedalmond;
+}
