@@ -126,13 +126,13 @@ article {
     margin: 100px;
 }
 
-.adventure {
+.adventure, .employees {
     text-align: center;
     display: flex;
     flex-direction: row;
     max-width: 100px;
     flex: 1 1 100%;
-    /* padding: 1rem; */
+    padding: 1rem;
     margin: 100px;
 }
 
@@ -143,4 +143,58 @@ figure img {
 
 figcaption {
     text-align: center;
+}
+
+legend {
+    background-color: var(--accent1-color);
+    font-size: 1.5rem;
+    border-radius: .5rem;
+    padding: 0.4rem;
+}
+
+.map {
+    width: 500px;
+    height: auto;
+}
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    vertical-align: bottom;
+}
+
+form {
+    display: grid;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid ;
+    padding: 1rem;
+}
+
+.contact-item {
+    display: grid;
+    align-items: start;
+}
+
+.column1 {
+    grid-template-columns: auto;
+    margin: 0.5rem 0;
+}
+
+button {
+    margin: 1rem;
+    background-color: var(--nav-background-color);
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);;
 }
