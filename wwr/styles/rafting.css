@@ -2,16 +2,16 @@
 
 :root {
     --primary-color: #219EBC;
-    --secondary-color: #023047;
-    --accent1-color: #FFB703;
+    --secondary-color: #000000;
+    --accent1-color: #fad67c;
     --accent2-color: #FB8500;
 
     --heading-font: 'Croissant One', cursive;
     --paragraph-font: 'Poppins', sans-serif;
 
-    --nav-background-color: #219EBC;
-    --nav-link-color: #023047;
-    --nav-hover-link-color: #FFB703;
+    --nav-background-color: #89e2f8;
+    --nav-link-color: #000000;
+    --nav-hover-link-color: #fad67c;
     --nav-hover-background-color: #FB8500;
 }
 
@@ -197,4 +197,61 @@ button {
 button:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);;
+}
+
+.book-now img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.book-now {
+    text-align: center;
+}
+
+.book-adventure {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    text-align: center;
+    border: 5px black solid;
+    border-radius: .5rem;
+    margin: 5% 0;
+    padding: 5em;
+}
+
+.book-adventure img {
+    width: 150px;
+}
+
+.book-adventure-item1 {
+    grid-column: 1/4;
+    grid-row: 1;
+}
+
+.book-adventure-item2 {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.book-adventure-item3 {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.book-adventure-item4 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+.book-adventure-item5 {
+    grid-column: 1/4;
+    grid-row: 3;
+    display: grid;
+    grid-template-columns: subgrid;
+}
+
+.book-adventure-item5 div {
+    padding: 1em;
+    border: 1px black solid;
 }
