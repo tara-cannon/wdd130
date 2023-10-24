@@ -199,13 +199,13 @@ button:hover {
     background-color: var(--nav-hover-background-color);;
 }
 
-.book-now img {
+.book-now, .welcome, img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.book-now {
+.book-now, .welcome, .visit-trips {
     text-align: center;
 }
 
