@@ -185,6 +185,11 @@ fieldset {
     margin: 0.5rem 0;
 }
 
+.employees img {
+    width: 150px;
+    padding: 1rem;
+}
+
 button {
     margin: 1rem;
     background-color: var(--nav-background-color);
@@ -254,4 +259,24 @@ button:hover {
 .book-adventure-item5 div {
     padding: 1em;
     border: 1px black solid;
+}
+
+.newsletter, .home-page {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.home-page {
+    display: grid;
+    grid-gap: 45px;
+}
+
+.options img {
+    width: 300px;
+    align-items: center;
+}
+
+.options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
